@@ -1,0 +1,273 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#in_m {
+    position: fixed;
+    top: 15px;
+    align-items: center;
+    width: 69%;
+    height: 130px;
+    left: 35%;
+    z-index: 1000;
+}
+
+#in_close{
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    position: relative;
+        
+}
+
+#in_user_name {
+    text-align: center;
+    position: fixed;
+    top: 30px;
+    left: 10%;
+    width: 400px;
+    height: 40px;
+    font-size: 200%;
+    font-family: ProximaNovaBold;
+    z-index: 500;
+    padding: 15px 0;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+#menu_selector {
+    margin-top: 3%;
+    list-style-type: none;
+    font-size: 130%;
+    text-align: center;
+    width: 80%;
+    font-family: ProximaNovaRegular, sans-serif;
+}
+
+.menu_option_dec {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.links_removal {
+    text-decoration: none;
+    color: black;
+    transition: 0.1s;
+}
+
+.links_removal:hover {
+    border-bottom: 4px solid black;
+}
+
+#menu_options_container{
+    overflow: auto;
+    background:  rgba(245,245,245,0.8);
+    border-radius: 0px 10px 10px 10px;
+    position: fixed;
+    top: 100px;
+    left: 10%;
+    width: 80%;
+    height: 0%;
+    z-index: 2000;
+    transition: 1s;
+}
+
+.main_menu_content{
+    width: 100%;
+    height: 135px;
+    background: white;
+    position: fixed;
+    z-index: 100;
+    box-shadow: 0px -3px 10px;
+}
+
+.section_title{
+    display: block;
+    position: absolute;
+    top: 180px;
+    width: 260px;
+    margin-left: 45%;
+    text-align: center;
+    font-size: 330%;
+    font-family: ProximaNovaRegular;
+        
+}
+
+.img_container_dec_lf{
+    background: url("../Media/img/modeling/lake_temple_side_w.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 300px;
+    margin-left: 7%;
+    width: 86%;
+    height: 840px;
+    position: relative;
+    display: inline-block;
+}
+
+.img_container_dec_rt{
+    background-image: url("../Media/img/modeling/lake_temple_back_w.jpg");
+    background-size: cover;
+    background-position: right;
+    margin-top: 50px;
+    margin-right: 7%;
+    float: right;
+    width: 43%;
+    height: 600px;
+    position: relative;
+    display: inline-block;
+}
+.img_container_dec_lf_2{
+    background-image: url("../Media/img/modeling/lake_temple_front_w.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    margin-left: 7%;
+    width: 43%;
+    height: 600px;
+    position: relative;
+    display: inline-block;
+}
+
+.img_container_dec_lf_3{
+    background-image: url("../Media/img/modeling/all_front.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    margin-left: 7%;
+    width: 86%;
+    height: 840px;
+    position: relative;
+    display: inline-block;
+}
+
+.img_container_dec_rt_3{
+    background-image: url("../Media/img/modeling/mid_front_up.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    margin-right: 7%;
+    float: right;
+    width: 43%;
+    height: 600px;
+    position: relative;
+    display: inline-block;
+}
+.img_container_dec_lf_4{
+    background-image: url("../Media/img/modeling/mid_front_down.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    margin-left: 7%;
+    width: 43%;
+    height: 600px;
+    position: relative;
+    display: inline-block;
+}
+.img_container_dec_lf_5{
+    margin-top: 50px;
+    margin-right: 7%;
+    width: 43%;
+    height: 600px;
+    float: right;
+    position: relative;
+    display: inline-block;
+}
+.img_container_dec_rt_5{
+    background-image: url("../Media/img/modeling/illa_low_poly.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    margin-left: 7%;
+    width: 43%;
+    height: 600px;
+    position: relative;
+    display: inline-block;
+}
+/*.img_container_dec_rt_6{
+    background-image: url("../Media/img/modeling/microwave.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    margin-left: 7%;
+    width: 43%;
+    height: 640px;
+    position: relative;
+    display: inline-block;
+}*/
+
+
+@media screen and (min-width: 1920px) {
+    .img_container_dec_lf{
+        margin-left: 15%;
+        width: 70%;
+    }
+    .img_container_dec_rt{
+        margin-right: 15%;
+        width: 34%;
+    }
+    .img_container_dec_lf_2{
+        margin-left: 15%;
+        width: 34%;
+    }
+    .img_container_dec_rt_2{
+        margin-right: 15%;
+        width: 34%;
+    }
+    .img_container_dec_lf_3{
+        margin-left: 15%;
+        width: 70%;
+    }
+    .img_container_dec_rt_3{
+        margin-right: 15%;
+        width: 34%;
+    }
+    .img_container_dec_lf_4{
+        margin-left: 15%;
+        width: 34%;
+    }
+    .img_container_dec_lf_5{
+        margin-right: 15%;
+        width: 34%;
+    }
+    .img_container_dec_rt_5{
+        margin-left: 15%;
+        width: 34%;
+    }
+    .img_container_dec_rt_6{
+        margin-left: 15%;
+        width: 34%;
+    }
+    
+}
+
+.info_title{
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: ProximaNovaBold;
+    display: none;
+}
+
+.info_dec{
+    font-size: 0px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#index_icon{
+    position: fixed;
+    left: 95%;
+    top: 35px;
+    width: 70px;
+    height: 70px;
+    z-index: 5100;
+}
