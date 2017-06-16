@@ -100,7 +100,7 @@ body {
 }
 
 .img_container_dec_lf{
-    background-image: url("../Media/img/render_color_1.jpg");
+    background-image: url("../Media/img/render_color_light.jpg");
     background-size: cover;
     background-position: center;
     margin-top: 300px;
@@ -121,7 +121,6 @@ body {
 }
 .img_container_dec_lf_2{
     background-image: url("../Media/img/modeling/microwave.png");
-    background-size: ;
     background-position: center;
     margin-top: 50px;
     margin-left: 7%;
@@ -130,19 +129,31 @@ body {
     position: relative;
     display: inline-block;
 }
-/*.img_container_dec_rt_2{
-    background-image: url("../img/ombres.jpg");
-    background-size: cover;
+.img_container_dec_rt_2{
+    background-image: url("../Media/img/house_side.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
-    margin-top: 50px;
+    margin-top: -75px;
     margin-right: 7%;
     float: right;
-    background-color: red;
-    width: 30%;
-    height: 640px;
+    width: 43%;
+    height: 600px;
     position: relative;
     display: inline-block;
-}*/
+}
+.img_container_dec_lf_3{
+    background-image: url("../Media/img/house_front.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -75px;
+    margin-left: 7%;
+    width: 43%;
+    height: 600px;
+    position: relative;
+    display: inline-block;
+}
 
 @media screen and (min-width: 1920px) {
     .img_container_dec_lf{
@@ -159,6 +170,10 @@ body {
     }
     .img_container_dec_rt_2{
         margin-right: 15%;
+        width: 34%;
+    }
+    .img_container_dec_lf_3{
+        margin-left: 15%;
         width: 34%;
     }
     
